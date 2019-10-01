@@ -1,0 +1,277 @@
+<!doctype html>
+
+<html>
+
+<head>
+</head>
+
+<body>
+<!--LETTER a -->
+<div class="letter">
+  
+    <div class="a-bowl">  
+      <div class="a-stem"></div>
+      <div class="a-counter"></div>  
+    </div>
+
+ </div>
+ <!--LETTER b --> 
+ <div class="letter">
+    
+      <div class="b-bowl">
+        <div class="b-stem"></div>
+        <div class="b-counter"></div>
+        
+      </div>
+ </div>
+ <!--LETTER c --> 
+ <div class="letter">
+    
+      <div class="c-bowl">
+        <div class="c-counter"></div>
+        <div class="c-opening"></div>
+      </div>
+
+ </div>
+<!--LETTER d --> 
+  <div class="letter">
+    
+      <div class="d-bowl">
+        <div class="d-stem"></div>
+        <div class="d-counter"></div>
+        
+      </div>
+ </div>
+ <!--LETTER e -->
+ <div class="letter">
+    
+      <div class="e-bowl">
+        <div class="e-counter"></div>
+        <div class="e-opening"></div>
+        <div class="e-stem"></div>
+        
+      </div>
+ </div>
+ <!--LETTER f -->
+ <div class="letter">
+    
+      <div class="f-stem">
+        <div class="f-terminal"></div>
+        <div class="f-crossbar"></div>
+        
+      </div>
+ </div>
+  <!--LETTER g -->
+ <div class="letter">
+    
+      <div class="g-bowl">
+        <div class="g-stem"></div>
+        <div class="g-counter"></div>
+        <div class="g-terminal"></div>
+        
+      </div>
+ </div>
+  <!--LETTER h -->
+ <div class="letter">
+    
+      <div class="h-stem">
+        <div class="h-bowl"></div>
+        <div class="h-counter"></div>
+        <div class="h-stopbleed"></div>
+        
+        
+      </div>
+ </div>
+ <!--LETTER i -->
+ <div class="letter">
+    
+      <div class="i-stem">
+        <div class="i-tittle"></div>
+        <div class="i-crossbar"></div>
+        
+        
+      </div>
+ </div>
+ <!--LETTER j --> 
+ <div class="letter">
+    
+      <div class="j-stem">
+        <div class="j-terminal"></div>
+        <div class="j-crossbar"></div>
+        <div class="j-tittle"></div>
+        
+      </div>
+ </div>
+ <!--LETTER k -->
+ <div class="letter">
+    
+      <div class="k-stem">
+        <div class="k-crossbar"></div>
+        <div class="k-tArm"></div>
+        <div class="k-bArm"></div>
+        <div class="k-tArmfix"></div>
+        <div class="k-bArmfix"></div>
+        
+      </div>
+ </div>
+ <!--LETTER l -->
+ <div class="letter">
+    
+      <div class="l-stem">
+       
+      </div>
+ </div>
+ <!--LETTER m -->
+ <div class="letter">
+   
+   
+        <div class="m2-stem">
+          <div class="m2-bowl"></div>
+          <div class="m2-counter"></div>
+          <div class="m2-stopbleed"></div>
+        </div>
+        <div class="m-stem">
+          <div class="m-bowl"></div>
+          <div class="m-counter"></div>
+          <div class="m-stopbleed"></div>
+        </div>
+   </div>
+
+ <!--LETTER n -->
+ <div class="letter">
+    
+      <div class="n-stem">
+        <div class="n-bowl"></div>
+        <div class="n-counter"></div>
+        <div class="n-stopbleed"></div>
+        
+      </div>
+ </div>
+ <!--LETTER o -->
+ <div class="letter">
+    
+      <div class="o-bowl">
+        <div class="o-counter"></div>
+        
+     </div>
+ </div>
+ <!--LETTER p -->
+ <div class="letter">
+    
+      <div class="p-bowl">
+        <div class="p-stem"></div>
+        <div class="p-counter"></div>
+        
+     </div>
+ </div>
+ <!--LETTER q -->
+ <div class="letter">
+    
+      <div class="q-bowl">
+        <div class="q-stem"></div>
+        <div class="q-counter"></div>
+        
+     </div>
+ </div>
+ <!--LETTER r --> 
+ <div class="letter">
+    
+      <div class="r-stem">
+        <div class="r-crossbar"></div>
+      </div>
+
+ </div>
+ <!--LETTER s --> 
+ <div class="letter">
+    
+      <div class="s-top"></div>
+      <div class="s-bottom"></div>
+      <div class="s-mid"></div>
+      <div class="s-mid2"></div>
+      <div class="s-mid3"></div>
+      <div class="s-mid4"></div>
+   
+</div>
+
+ <!--LETTER t --> 
+ <div class="letter">
+    
+      <div class="t-stem">
+        <div class="t-crossbar"></div>
+        <div class="t-terminal"></div>
+        
+      </div>
+ </div>
+ <!--LETTER u --> 
+  <div class="letter">
+    
+      <div class="u-stem">
+        <div class="u-bowl"></div>
+        <div class="u-counter"></div>
+        <div class="u-stopbleed"></div>
+        
+     </div>
+ </div>
+ <!--LETTER v --> 
+ <div class="letter">
+    
+   <div class="v-left"></div>
+        <div class="v-right"></div>
+        <div class="v-stopBleedTop"></div>
+        <div class="v-stopBleedBottom"></div>
+        
+     
+ </div>
+ <!--LETTER w --> 
+ <div class="letter">
+    
+   <div class="w-left"></div>
+        <div class="w-right"></div>
+        <div class="w-left2"></div>
+        <div class="w-right2"></div> 
+        <div class="w-stopBleedTop"></div>
+        <div class="w-stopBleedBottom"></div>
+       
+     </div>
+ </div>
+ <!--LETTER x --> 
+ <div class="letter">
+    
+   <div class="x-left"></div>
+        <div class="x-right"></div>
+        <div class="x-stopBleedTop"></div>
+        <div class="x-stopBleedBottom"></div>
+        
+     </div>
+ </div>
+ <!--LETTER y --> 
+ <div class="letter">
+    
+   <div class="y-left"></div>
+   <div class="y-right">
+        <div class="y-stopBleedTop"></div>
+        <div class="y-stopBleedBottom"></div>
+        <div class="y-Terminal"></div>
+   </div>
+ </div> 
+ <!--LETTER z-->
+ <div class="letter">
+    
+    <div class="zz-top">
+        <div class="z-mid"></div>
+        <div class="z-bottom"></div>
+        
+     </div>
+ </div> 
+ <!-- End of Letters -->
+  
+  
+  
+  
+  
+</div>
+
+  
+</body>
+
+</html>
