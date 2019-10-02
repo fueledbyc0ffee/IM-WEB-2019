@@ -877,7 +877,7 @@ body{
       position: absolute;
       box-sizing: content-box;
       top: 40%;
-      left: 3px;
+      left: 50px;
       width: 48px;
       height: 22px;
       border: 17px solid black;
@@ -888,7 +888,7 @@ body{
       position: absolute;
       box-sizing: content-box;
       top: 54%;
-      left: 3px;
+      left: 50px;
       width: 49px;
       height: 25px;
       border: 17px solid black;
@@ -898,8 +898,8 @@ body{
 .s-mid {
       position: absolute;
       top: 47.6%;
-      left: 26px;
-      width: 60px;
+      left: 112px;
+      width: 20px;
       height: 13px;
       background: white;
       border-radius: 0px;
@@ -908,7 +908,7 @@ body{
 .s-mid2 {
       position: absolute;
       top: 180px;
-      left: 3px;
+      left: 50px;
       width: 19px;
       height: 15px;
       background: white;
@@ -918,7 +918,7 @@ body{
 .s-mid3 {
       position: absolute;
       top: 49.4%;
-      left: 12.4px;
+      left: 59.4px;
       width: 56px;
       height: 50px;
       border-radius: 35px;
@@ -932,7 +932,7 @@ body{
 .s-mid4 {
       position: absolute;
       top: 110px;
-      left: -8px;
+      left: 39px;
       width: 58px;
       height: 50px;
       border-radius: 36px;
