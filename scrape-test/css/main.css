@@ -1,0 +1,34 @@
+html { 
+      background-color: #FFF;
+      }
+body, .col {
+      margin: 0;
+      height: 100vh;
+      padding-left: 0.5em;
+      font-family: 'Space Mono', monospace;
+      font-size: 2.0vw;
+      display: flex;
+      line-height: 1.2em;
+      overflow: hidden; 
+      user-select: none;
+      cursor: none;
+
+      
+      }
+
+.col1 {
+      transform: none;
+      padding-right: 0.5em;
+      color: #0000FF;
+      
+
+
+      }
+
+.col2 {
+      transform: rotate(180deg);
+      color: #FFF;
+      background-color: #0000FF;
+      padding: 0.5em;
+      
+      }
