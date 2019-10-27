@@ -1,0 +1,31 @@
+html, body {
+	margin: 0;
+	height: 100vh;
+	color: blue;
+	overflow: hidden;
+}
+
+body{
+	display: flex;
+}
+
+/*.col-wrapper {
+	width: 50vw;
+	height: 100vh;
+	
+}*/
+
+.col {
+	height: 100vh;
+	box-sizing: border-box;
+	padding-left: 0.5em;
+	overflow-y: scroll;
+	font-family: 'Space Mono', monospace;
+}
+
+#rev{
+	background-color: blue;
+	color:white;
+	transform: rotate(180deg);
+}
+
