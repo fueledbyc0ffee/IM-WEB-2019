@@ -1,5 +1,3 @@
-
-
 // Christine code for generating new divs
 
 //     $(document).ready(function() {
@@ -61,3 +59,8 @@
       })
     }
 
+  function text() {
+    scrape();
+  }
+
+  console.log(text())

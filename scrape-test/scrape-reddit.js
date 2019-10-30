@@ -7,7 +7,7 @@
 
 
 
-function scrape() {
+function getHeader() {
 	
 	const puppeteer = require('puppeteer');
     const $ = require('cheerio');
@@ -33,10 +33,6 @@ function scrape() {
 	    //handle error
 	  });
 }
-
-scrape()
-
-
 
 // module.exports = {
 // 	getHeader
