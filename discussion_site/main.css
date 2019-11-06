@@ -1,0 +1,19 @@
+body, html {
+	  margin: 0;
+      height: 100vh;
+      padding-left: 0.5em;
+      padding-right: 0.5em;
+      /*font-family: 'Space Mono', monospace;*/
+      font-size: 1.5vw;
+      display: flex;
+      line-height: 1.2em;
+      overflow: hidden; 
+      user-select: none;
+      cursor: none;
+      /*background-image: url('quiet.jpg');
+      background-size: cover;*/
+}
+
+.colOne .colTwo {
+	max-width: 30em;
+}
