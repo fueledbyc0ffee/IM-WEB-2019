@@ -13,9 +13,7 @@ body, html {
       font-family: 'Circka', serif;
       display: flex;
 
-      overflow: hidden; 
-      /*user-select: none;
-      cursor: none;*/
+      overflow: hidden;
 }
 
 body {
@@ -103,7 +101,6 @@ a:hover {
       left: 90vw;
       top: 95vh;
 }
-
 
 
 .teller {
