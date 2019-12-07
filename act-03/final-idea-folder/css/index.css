@@ -1,0 +1,101 @@
+@font-face {
+      font-family: "Circka";
+      src: url("assets/Cirka-Regular.otf");
+}
+
+@font-face {
+      font-family: "Agrandir";
+      src: url("assets/Agrandir-Regular.otf");
+}
+
+body, html {
+	margin: 0;
+      font-family: 'Circka', serif;
+      display: flex;
+      overflow: hidden; 
+}
+
+body {
+      margin: 0px;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+      background-color: white;
+      overflow: hidden;
+      
+}
+
+a:link, a:visited, a:active, a:hover {
+      color: blue;
+      text-decoration: none;
+      
+}
+
+a:hover {
+      /*color: black;*/
+      font-family: 'Agrandir', sans-serif;
+      
+}
+
+.text {
+       position: absolute;
+       height: 1000px;
+       width: 18em;
+       left: 5em;
+       color: black;
+       font-size: 3.5vw;
+       overflow: hidden;
+       
+}
+
+.story1, .story2, .story3, .story4, .story5, .story6 {
+      font-size: 1.2vw;
+      position: fixed;
+      white-space: nowrap;
+      z-index: 2;
+
+}
+
+.story1 {
+      left: 5vw;
+      top: 3vh;
+     
+}
+
+.story2 {
+      left: 5vw;
+      top: 25vh;
+     
+}
+
+.story3 {
+      left: 5vw;
+      top: 50vh;
+   
+}
+
+.story4 {
+      left: 90vw;
+      top: 53vh;
+}
+
+.story5 {
+      left: 90vw;
+      top: 75vh;
+}
+
+.story6 {
+      left: 90vw;
+      top: 95vh;
+}
+
+.teller {
+      position: fixed;
+      font-size: 5vw;
+      left: 5vw;
+      top: 88vh;
+      z-index: 2;
+      
+
+}
+

@@ -1,0 +1,117 @@
+@font-face {
+      font-family: "Circka";
+      src: url("assets/Cirka-Regular.otf");
+}
+
+@font-face {
+      font-family: "Agrandir";
+      src: url("assets/Agrandir-Regular.otf");
+}
+
+body, html {
+	margin: 0;
+      font-family: 'Circka', serif;
+      display: flex;
+
+      overflow: hidden; 
+      /*user-select: none;
+      cursor: none;*/
+}
+
+body {
+      margin: 10px;
+      height: 100%;
+      width: 100%;
+      padding-left: 0.5em;
+      padding-right: 0.5em;
+      background-color: white;
+      overflow: visible;
+      
+}
+
+a:link, a:visited, a:active, a:hover {
+     /* color: black;
+      mix-blend-mode: difference;
+      text-decoration: none;*/
+}
+
+a:hover {
+      /*color: blue;*/
+      font-family: 'Agrandir', sans-serif;
+      /*text-decoration: none;*/
+}
+
+.index {
+
+}
+
+#home {
+
+}
+
+.text {
+       position: absolute;
+       height: 1000px;
+       width: 18em;
+       left: 5em;
+       color: black;
+       font-size: 3.5vw;
+       overflow: hidden;
+       background:transparent;
+       
+}
+
+.story1, .story2, .story3, .story4, .story5, .story6 {
+      font-size: 1.5vw;
+      /*color: blue;*/
+      position: fixed;
+      white-space: nowrap;
+      z-index: 2;
+      /*background-color: transparent;*/
+
+}
+
+.story1 {
+      left: 5vw;
+      /*top: 3vh;*/
+     
+}
+
+.story2 {
+      left: 5vw;
+      top: 25vh;
+     
+}
+
+.story3 {
+      left: 5vw;
+      top: 50vh;
+   
+}
+
+.story4 {
+      left: 90vw;
+      top: 50vh;
+}
+
+.story5 {
+      left: 90vw;
+      top: 75vh;
+}
+
+.story6{
+      left: 90vw;
+      top: 95vh;
+}
+
+
+
+.teller {
+      position: fixed;
+      font-size: 15vw;
+      left: 47%;
+      top: 35%;
+      z-index: 3;
+
+}
+
