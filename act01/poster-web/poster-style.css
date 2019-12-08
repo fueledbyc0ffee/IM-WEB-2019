@@ -4,6 +4,7 @@ html {
   height: 100%;
   background-position: top center;
   background-color: #ffffff;
+  display: flex;
 }
 
 body
