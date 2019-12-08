@@ -1,0 +1,111 @@
+@font-face {
+      font-family: "NeueMachina";
+      src: url("fonts/NeueMachina-Regular.otf");
+}
+
+body, html {
+	margin: 0;
+      font-family: 'NeueMachina', serif;
+      display: flex;
+      overflow-y: hidden;
+}
+
+body {
+      height: 100%;
+      width: 100%;
+      padding: 0;
+      background-color: white;
+      
+      
+}
+
+a:link, a:visited, a:active, a:hover {
+      color: black;
+      mix-blend-mode: difference;
+      text-decoration: none;
+}
+
+.text1 {
+       position: absolute;
+       width: 15em;
+       left: 2.5vw;
+       top: 7.8vh;
+       color: black;
+       font-size: 1vw;
+       overflow-y: hidden;
+       background:transparent;
+       
+}
+
+.text2 {
+       position: absolute;
+       width: 15em;
+       left: 20vw;
+       top: 7.8vh;
+       color: black;
+       font-size: 1vw;
+       overflow-y: hidden;
+       background:transparent;
+       
+}
+
+.text3 {
+       position: absolute;
+       width: 15em;
+       left: 35vw;
+       top: 7.8vh;
+       color: black;
+       font-size: 1vw;
+       overflow-y: hidden;
+       background:transparent;
+       
+}
+
+.text4 {
+       position: absolute;
+       width: 15em;
+       left: 50vw;
+       top: 7.8vh;
+       color: black;
+       font-size: 1vw;
+       overflow-y: hidden;
+       background:transparent;
+       
+}
+
+.text5 {
+       position: absolute;
+       width: 15em;
+       left: 67.5vw;
+       top: 7.8vh;
+       color: black;
+       font-size: 1vw;
+       overflow-y: hidden;
+       background:transparent;
+       
+}
+
+.text6 {
+       position: absolute;
+       width: 15em;
+       left: 82.5vw;
+       top: 7.8vh;
+       color: black;
+       font-size: 1vw;
+       overflow-y: hidden;
+       background:transparent;
+       
+}
+
+.text7 {
+       position: absolute;
+       width: 15em;
+       left: 110vw;
+       top: 7.8vh;
+       color: black;
+       font-size: 1vw;
+       overflow-y: hidden;
+       background:transparent;
+       
+}
+

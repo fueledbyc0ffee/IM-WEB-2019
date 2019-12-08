@@ -1,0 +1,77 @@
+@font-face {
+      font-family: "NeueMachina";
+      src: url("fonts/NeueMachina-Regular.otf");
+}
+
+@font-face {
+      font-family: "NeueMachina Light";
+      src: url("fonts/NeueMachina-Light.otf");
+}
+
+body, html {
+	margin: 0;
+      height: 100vh;
+      width: 100vw;
+      font-family: 'NeueMachina', serif;
+      display: flex;
+      overflow: hidden;
+}
+
+body {
+      /*margin: 10px;*/
+      
+      padding-left: 0.5em;
+      padding-right: 0.5em;
+      background-color: black;
+      overflow: visible;
+      
+}
+
+.titleA:hover {
+      font-family: 'NeueMachina Light', serif
+}
+
+.titleB:hover {
+      font-family: 'NeueMachina Light', serif;
+}
+
+.titleC:hover {
+      font-family: 'NeueMachina Light', serif;
+}
+
+.titleA {
+       position: absolute;
+       line-height: 1.3em;
+       width: 12em;
+       left: 2.5vw;
+       top: 5vh;
+       color: white;
+       font-size: 9vw;
+       overflow: hidden;
+       background:transparent;
+       
+}
+
+.titleB {
+       position: absolute;
+       width: 10em;
+       left: 73vw;
+       top: 50vh;
+       color:white;
+       font-size: 9vw;
+       overflow: hidden;
+       background:transparent;
+       
+}
+
+.titleC {
+       position: absolute;
+       width: 10em;
+       left: 2.5vw;
+       top: 80vh;
+       color:white;
+       font-size: 9vw;
+       overflow: hidden;
+       background:transparent;
+       
+}
