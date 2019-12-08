@@ -59,13 +59,13 @@ a:active
 @font-face 
 {
   font-family: "AmericanaStd-ExtraBold";
-  src: url("/fonts/AmericanaStd-ExtraBold_0.otf") format("opentype");
+  src: url("./fonts/AmericanaStd-ExtraBold_0.otf") format("opentype");
 }
 
 @font-face 
 {
   font-family: "AmericanaStd-Bold";
-  src: url("/fonts/AmericanaStd-Bold_0.otf") format("opentype");
+  src: url("./fonts/AmericanaStd-Bold_0.otf") format("opentype");
 }
 
 /*Classes*/
