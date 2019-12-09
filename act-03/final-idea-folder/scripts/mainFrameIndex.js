@@ -1,5 +1,3 @@
-$(document).ready(function(){
+var concept = "My mainframe website is the storyteller, of which 6 stories are told. I can update these stories to be new stories depending on what I want to tell of. Unlike other websites where you add a new link, this is a website designed around replacing a link. I may decide that for a month, story 1 is a website about space, and then for a week it becomes a story about cooking."
 
-
-
-});
+console.log(concept);
