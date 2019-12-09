@@ -1,0 +1,105 @@
+/*@font-face {
+      font-family: "NeueMachina";
+      src: url("fonts/NeueMachina-Regular.otf");
+}*/
+
+@font-face {
+      font-family: "Berlingske Reg";
+      src: url("fonts/Berlingske-Serif-Text-Regular-Typeface.ttf");
+}
+
+@font-face {
+      font-family: "Berlingske Italic";
+      src: url("fonts/Berlingske-Serif-Italic-Typeface.ttf");
+}
+
+@font-face {
+      font-family: "Berlingske Medium";
+      src: url("fonts/Berlingske-Serif-Medium-Typeface.ttf");
+}
+
+body, html {
+	  margin: 0;
+      font-family: "Berlingske Medium", serif;
+      display: flex;
+      overflow: hidden;
+}
+
+body {
+      /*margin: 10px;*/
+      height: 100%;
+      width: 100%;
+      padding-left: 0em;
+      padding-right: 1em;
+      background-color: transparent;
+      overflow: visible;
+      
+}
+
+a:link, a:visited, a:active, a:hover {
+      color: black;
+      text-decoration: none;
+}
+
+
+.discussion1, .discussion2, .act1, .act1-pt2 , .act2, .act3, .sources {
+      position: absolute;
+      font-size: 1.8vmin;
+      width: 10vw;
+      left: 1vw;
+      z-index: 2;
+}
+
+.discussion1 {
+	top: 10vh;
+}
+
+.discussion2 {
+	top: 20vh;
+}
+
+.act1 {
+	top: 30vh ;
+}
+
+.act1-pt2 {
+	top: 40vh;
+}
+
+.act2 {
+	top: 50vh;
+}
+
+.act3 {
+	top: 60vh;
+}
+
+.sources {
+	top: 70vh;
+}
+
+.return {
+	top: 80vh;
+	font-size: 2vh;
+	position: fixed;
+	left: 1vw;
+	white-space: nowrap;
+	z-index: 2;
+}
+
+/*.sidebar {                ============= can't get it to resize properly ===========
+	position: absolute;
+	background-color: black;
+	width: 4px;
+	height: 100%;
+	left: 10.8vw;
+}*/
+
+#viewport {
+	margin: 0; 
+	padding-left: 10vw; 
+	border: none; 
+	width: 90vw; 
+	height: 100vh;
+	z-index: 1;
+}
