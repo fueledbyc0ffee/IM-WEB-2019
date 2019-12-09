@@ -1,4 +1,4 @@
-@font-face {
+/*@font-face {
       font-family: "NeueMachina";
       src: url("fonts/NeueMachina-Regular.otf");
 }
@@ -6,13 +6,28 @@
 @font-face {
       font-family: "NeueMachina Light";
       src: url("fonts/NeueMachina-Light.otf");
+}*/
+
+@font-face {
+      font-family: "Berlingske Reg";
+      src: url("fonts/Berlingske-Serif-Text-Regular-Typeface.ttf");
+}
+
+@font-face {
+      font-family: "Berlingske Italic";
+      src: url("fonts/Berlingske-Serif-Italic-Typeface.ttf");
+}
+
+@font-face {
+      font-family: "Berlingske Medium";
+      src: url("fonts/Berlingske-Serif-Medium-Typeface.ttf");
 }
 
 body, html {
 	margin: 0;
       height: 100vh;
       width: 100vw;
-      font-family: 'NeueMachina', serif;
+      font-family: 'Berlingske Medium', serif;
       display: flex;
       overflow: hidden;
 }
@@ -28,15 +43,15 @@ body {
 }
 
 .titleA:hover {
-      font-family: 'NeueMachina Light', serif
+      font-family: "Berlingske Italic", serif;
 }
 
 .titleB:hover {
-      font-family: 'NeueMachina Light', serif;
+      font-family: "Berlingske Italic", serif;     
 }
 
 .titleC:hover {
-      font-family: 'NeueMachina Light', serif;
+      font-family: "Berlingske Italic", serif;
 }
 
 .titleA {
@@ -46,7 +61,7 @@ body {
        left: 2.5vw;
        top: 5vh;
        color: white;
-       font-size: 9vw;
+       font-size: 8.5vw;
        overflow: hidden;
        background:transparent;
        
@@ -58,7 +73,7 @@ body {
        left: 73vw;
        top: 50vh;
        color:white;
-       font-size: 9vw;
+       font-size: 8.5vw;
        overflow: hidden;
        background:transparent;
        
@@ -70,7 +85,7 @@ body {
        left: 2.5vw;
        top: 80vh;
        color:white;
-       font-size: 9vw;
+       font-size: 8.5vw;
        overflow: hidden;
        background:transparent;
        

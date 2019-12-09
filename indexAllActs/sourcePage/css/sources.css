@@ -1,11 +1,31 @@
-@font-face {
+/*@font-face {
       font-family: "NeueMachina";
       src: url("fonts/NeueMachina-Regular.otf");
 }
 
+@font-face {
+      font-family: "NeueMachina Bold";
+      src: url("fonts/NeueMachina-Ultrabold.otf");
+}*/
+
+@font-face {
+      font-family: "Berlingske Reg";
+      src: url("fonts/Berlingske-Serif-Text-Regular-Typeface.ttf");
+}
+
+@font-face {
+      font-family: "Berlingske Italic";
+      src: url("fonts/Berlingske-Serif-Italic-Typeface.ttf");
+}
+
+@font-face {
+      font-family: "Berlingske Medium";
+      src: url("fonts/Berlingske-Serif-Medium-Typeface.ttf");
+}
+
 body, html {
 	margin: 0;
-      font-family: 'NeueMachina', serif;
+      font-family: 'Berlingske Reg', serif;
       display: flex;
       overflow-y: hidden;
 }
@@ -14,98 +34,114 @@ body {
       height: 100%;
       width: 100%;
       padding: 0;
-      background-color: white;
+      background-color: black;
       
       
 }
 
+
+
 a:link, a:visited, a:active, a:hover {
-      color: black;
-      mix-blend-mode: difference;
+      color: white;
+      
       text-decoration: none;
 }
 
-.text1 {
-       position: absolute;
-       width: 15em;
-       left: 2.5vw;
-       top: 7.8vh;
-       color: black;
-       font-size: 1vw;
-       overflow-y: hidden;
-       background:transparent;
-       
+li {
+    text-indent: -1.5vw;
+    list-style-type: none;  
 }
 
-.text2 {
-       position: absolute;
-       width: 15em;
-       left: 20vw;
-       top: 7.8vh;
-       color: black;
-       font-size: 1vw;
-       overflow-y: hidden;
-       background:transparent;
-       
+h1 {
+      font-family: 'Berlingske Medium', serif;
+      font-size: 4vh;
+      line-height: 5.6vh;
+      font-weight: normal;
 }
 
-.text3 {
-       position: absolute;
-       width: 15em;
-       left: 35vw;
-       top: 7.8vh;
-       color: black;
-       font-size: 1vw;
-       overflow-y: hidden;
-       background:transparent;
-       
+h2 {
+      font-family: 'Berlingske Italic', serif;
+      font-size: 2vh;
+      font-weight: normal;
 }
 
-.text4 {
-       position: absolute;
-       width: 15em;
-       left: 50vw;
-       top: 7.8vh;
-       color: black;
-       font-size: 1vw;
-       overflow-y: hidden;
-       background:transparent;
-       
+h3{
+      font-size: 2vh;
+      font-weight: normal;  
+}
+
+
+
+.text1, .text1B, .text2, .text3, .text4, .text5, .text6 {
+      position: absolute;
+      color: white;
+      font-size: 2vh;
+      line-height: 2.8vh;
+      width: 26vw;
+      height: 100vh;
+      overflow: scroll;
+      padding-right: 0.5em;
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+  background: #fff;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #fff;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #fff;
+}
+
+
+.text1 {  
+      background: black; 
+      left: 1vw; 
+}
+
+.text1B { 
+      left: 29vw; 
+}
+
+
+.text2 { 
+      left: 57vw; 
+}
+
+.text3 {  
+      left: 85vw;
+}
+
+.text4 {   
+      left: 113vw;
+     
 }
 
 .text5 {
-       position: absolute;
-       width: 15em;
-       left: 67.5vw;
-       top: 7.8vh;
-       color: black;
-       font-size: 1vw;
-       overflow-y: hidden;
-       background:transparent;
-       
+      left: 141vw;  
 }
 
-.text6 {
-       position: absolute;
-       width: 15em;
-       left: 82.5vw;
-       top: 7.8vh;
-       color: black;
-       font-size: 1vw;
-       overflow-y: hidden;
-       background:transparent;
-       
+.text6 {  
+      left: 169vw;     
+      
 }
-
-.text7 {
-       position: absolute;
-       width: 15em;
-       left: 110vw;
-       top: 7.8vh;
-       color: black;
-       font-size: 1vw;
-       overflow-y: hidden;
-       background:transparent;
-       
+.end {
+      position: absolute;
+      color: white;
+      font-size: 2vh;
+      width: 3.5vw;
+      height: 100vh;
+      padding-right: 0.5em;
+      left: 193vw;
 }
-
